@@ -119,6 +119,19 @@ nav{
 
 }
 
+/* NAV Toggle */
+#nav-toggle:checked~nav{
+    display: block;
+}
+#nav-toggle{
+    display: none;
+}
+.nav-toggle-label{
+    /* cursor: pointer; */
+    font-size: 2rem;
+    font-weight:100;
+}
+
 
 main {
     /* Make main take up Surplus space and push footer down */
