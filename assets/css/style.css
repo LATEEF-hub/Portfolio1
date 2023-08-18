@@ -94,6 +94,31 @@ h1{
     align-items: var(--AlignItems-Center);
 }
 
+#menu{
+    letter-spacing: 4px;
+    list-style: none;
+    font-size: 110%;
+    font-weight: 250;
+
+}
+#menu >li{
+    margin-bottom: 1em;
+}
+
+/* NavBar style with toggle dropdown */
+/* Add Top: 100% to tell nav to start from bottom of Parent bcos we add flex to the header */
+nav{
+    position: absolute;
+    background-color: inherit;
+    width: 100%;
+    left: 0;
+    padding-inline: 1rem;
+    box-shadow: 0 2px 2px var(--footerColor);
+    display: none;
+    top: 100%;
+
+}
+
 
 main {
     /* Make main take up Surplus space and push footer down */
