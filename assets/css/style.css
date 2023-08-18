@@ -64,7 +64,7 @@ body {
 
 /* HEADER */
 header {
-    background-color: #30b14e;
+    background-color: #fff;
     position: fixed;
     width: 100%;
     z-index: 99;
@@ -83,6 +83,15 @@ header a {
     text-decoration: none;
     color: var(--primaryColor);
 
+}
+
+h1{
+    display: var(--display-flex);
+    text-transform: uppercase;
+    color: var(--headerColor);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    align-items: var(--AlignItems-Center);
 }
 
 
