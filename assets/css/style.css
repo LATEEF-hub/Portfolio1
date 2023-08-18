@@ -38,13 +38,37 @@
 
 }
 
+.header-Custom {
+    --headerColor: linear-gradient(45deg, rgba(74, 80, 74, 0.916), rgb(33, 67, 33), green);
+    --textAlign: center;
+    --JC-spaceBtw: space-between;
+    --JC-spaceArd: space-around;
+    --BG-Color: #ffffff;
+
+
+
+
+
+}
+
+body {
+    /* min-height allows  to strecth larger than Heigth of screen when theres enough content on the screen ; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+
+}
+
 /* HEADER */
 header {
-    background-color: #fff;
+    background-color: #30b14e;
     position: fixed;
     width: 100%;
     z-index: 99;
-    padding-inline:1rem;
+    padding-inline: 1rem;
     box-shadow: 0 2px 2px var(--footerColor);
 
     /* To set the toggle add a display flex to here and JC-sBtw */
@@ -55,3 +79,23 @@ header {
 
 }
 
+header a {
+    text-decoration: none;
+    color: var(--primaryColor);
+
+}
+
+
+main {
+    /* Make main take up Surplus space and push footer down */
+    background-color: #3075b1;
+    margin-top: 47px;
+
+    flex: 1 0 auto;
+
+}
+
+
+footer {
+    color: red;
+}
