@@ -1,0 +1,57 @@
+/* Google font import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@100;300;400;900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;300;400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap');
+/* Asterisk Wildcard Selector to override browser default styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+
+    --primaryColor: linear-gradient(rgba(122, 226, 162, 0.998), rgba(80, 151, 123, 0.88));
+    --headerColor: linear-gradient(45deg, rgba(74, 80, 74, 0.916), rgb(33, 67, 33), green);
+    --footerColor: #3a3a3a;
+    --textColor: #fff;
+    --text-box-color: rgba(253, 253, 253, 0.878);
+    /* --secondaryTextColor:#f1efef ;*/
+    --font-size: 2.5rem !important;
+    --AccentGreen: #95f4ab;
+
+    /* Hover shadow */
+    --filter-Shadow: drop-shadow(0 0 20px rgba(0, 0, 0, 0.2));
+
+
+    /* ALIGNMENT */
+    --textCenterAlign: center;
+    --textRightAlign: right;
+    --textLeftAlign: left;
+
+    --display-flex: flex;
+    --JC-spaceBtw: space-between;
+    --JC-spaceArd: space-around;
+    --AlignItems-Baseline: baseline;
+    --AlignItems-Center: center;
+
+}
+
+/* HEADER */
+header {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    padding-inline:1rem;
+    box-shadow: 0 2px 2px var(--footerColor);
+
+    /* To set the toggle add a display flex to here and JC-sBtw */
+    display: var(--display-flex);
+    justify-content: var(--JC-spaceBtw);
+    align-items: var(--AlignItems-Baseline);
+
+
+}
+
