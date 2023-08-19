@@ -1,0 +1,535 @@
+/* Google font import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@100;300;400;900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;300;400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap');
+/* Asterisk Wildcard Selector to override browser default styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --primaryColor: linear-gradient(rgba(122, 226, 162, 0.998), rgba(80, 151, 123, 0.88));
+    --headerColor: linear-gradient(45deg, rgba(74, 80, 74, 0.916), rgb(33, 67, 33), green);
+    --footerColor: #3a3a3a;
+    --textColor: #fff;
+    --text-box-color: rgba(253, 253, 253, 0.878);
+    /* --secondaryTextColor:#f1efef ;*/
+    --font-size: 2.5rem !important;
+    --AccentGreen: #95f4ab;
+
+    /* Hover shadow */
+    --filter-Shadow: drop-shadow(0 0 20px rgba(0, 0, 0, 0.2));
+
+
+    /* ALIGNMENT */
+    --textCenterAlign: center;
+    --textRightAlign: right;
+    --textLeftAlign: left;
+
+    --display-flex: flex;
+    --JC-spaceBtw: space-between;
+    --JC-spaceArd: space-around;
+    --AlignItems-Baseline: baseline;
+    --AlignItems-Center: center;
+
+}
+
+
+body {
+    min-height: 100vh;
+    display: var(--display-flex);
+    flex-direction: column;
+    background: #bbe7de;
+    font-family: 'Lato', sans-serif;
+
+}
+
+/* HEADER */
+header {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    padding-inline:1rem;
+    box-shadow: 0 2px 2px var(--footerColor);
+
+    /* To set the toggle add a display flex to here and JC-sBtw */
+    display: var(--display-flex);
+    justify-content: var(--JC-spaceBtw);
+    align-items: var(--AlignItems-Baseline);
+
+
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primaryColor);
+    
+}
+
+h1{
+    display: var(--display-flex);
+    text-transform: uppercase;
+    color: var(--headerColor);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    align-items: var(--AlignItems-Center);
+}
+
+#menu{
+    letter-spacing: 4px;
+    list-style: none;
+    font-size: 110%;
+    font-weight: 250;
+
+}
+#menu >li{
+    margin-bottom: 1em;
+}
+
+/* NavBar style with toggle dropdown */
+/* Add Top: 100% to tell nav to start from bottom of Parent bcos we add flex to the header */
+nav{
+    position: absolute;
+    background-color: inherit;
+    width: 100%;
+    left: 0;
+    padding-inline: 1rem;
+    box-shadow: 0 2px 2px var(--footerColor);
+    display: none;
+    top: 100%;
+
+}
+
+/* NAV Toggle */
+#nav-toggle:checked~nav{
+    display: block;
+}
+#nav-toggle{
+    display: none;
+}
+.nav-toggle-label{
+    /* cursor: pointer; */
+    font-size: 2rem;
+    font-weight:100;
+}
+ 
+.active{
+    border-bottom: 1px solid var(--footerColor);
+}
+
+
+
+
+/* MAIN */
+
+main {
+    flex: 1 0 auto;
+    margin-top: 49px;
+}
+
+#hero{
+    background: url("../images/hero.webp") no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px dotted var(--text-box-color);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    border: 1px solid var(--primaryColor);
+    background: #bbe7de;
+    transition: 1s;
+
+}
+
+
+#cover-text {
+    
+    font-size: 130%;
+    position: absolute;
+    width: 80%;
+    /* color: var(--text-box-color); */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: var(--textCenterAlign);
+}
+
+#cover-text h1 {
+    display: block;
+    color: #fff;
+    padding-inline: 15px;
+    font-size: 62px;
+    line-height: 1.5em;
+    margin-top: 90px;
+
+}
+
+#cover-text p, #cover-text span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+/* ABOUT US */
+
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col img {
+    width: 90%;
+    max-height: fit-content;
+}
+
+.about-col h1 {
+    padding: 0;
+}
+
+.about-col p {
+    padding: 15px 0 25px;
+}
+
+.red-btn {
+    border: 1px dotted #f44336;
+    background: transparent;
+    color: #f44336;
+}
+
+.red-btn:hover {
+    color: #fff;
+}
+
+
+
+ 
+/* SPECIALS  */
+
+.specials {
+    width: 80%;
+    margin: auto;
+    text-align: var(--textCenterAlign);
+}
+
+
+
+.specials-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: var(--textLeftAlign);
+
+}
+
+.specials-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.specials-col p {
+    padding-block: 0;
+}
+
+.specials-col h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: var(--textLeftAlign);
+}
+.specials h1, p{
+    margin-top: 5px;
+    display: block;
+    padding-block: 10px;
+    
+    /* text-align: center; */
+}
+
+
+/* .specials{
+    color: var(--headerColor);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.specials-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    transition: 0.5ms;
+
+}
+.specials-col:hover{
+    filter: var(--filter-Shadow);
+}
+
+.specials-col img {
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specials-col p {
+    padding: 0;
+}
+
+.specials-col h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.row-specials {
+    --marginTop: 5%
+    margin-top: var(--marginTop);
+    display: var(--display-flex);
+    justify-content: var(--JC-spaceBtw);
+} */
+
+
+ /* CTA */
+
+
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 100px 0;
+    text-align: var(--textCenterAlign);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/AfricanPot.webp");
+}
+
+.cta h1 {
+    text-transform:none;
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+
+/* ----contact us page---- */
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+
+}
+.location iframe{
+    width: 100%;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col .fa{
+    color: #3a3a3a;
+    font-size: 28px;
+    margin: 10px;
+    margin-right: 30px;
+}
+.contact-col div p{
+    padding: 0;
+}
+.contact-col div h5{
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1px soild #ccc;
+    margin-bottom: 17px;
+    outline: none;
+    box-sizing: border-box;
+}
+/* SUB-HEADER */
+.sub-header {
+    background: url("../images/hero.webp") no-repeat center center/cover;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: var(--AlignItems-Center);
+    font-size: 150%;
+    font-weight: 400;
+
+
+}
+
+.sub-header h1{
+    margin-top: 80px;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+.fa-heart-pulse {
+    color: inherit;
+}
+
+
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+
+
+
+/* Media Query: tablet and larger screen (768px and up) */
+
+@media screen and (min-width: 768px){
+    nav{
+       display: block;
+       box-shadow: none;
+       width: fit-content;
+       position: relative;
+       padding-right: 1em;
+       
+       
+    }
+    #menu{
+        display: var(--display-flex);
+    } 
+
+
+    #menu > li{
+        padding-left: 1rem;
+    
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    .nav-toggle-label{
+        display: none;
+    }
+    
+    /* #hero */
+    #cover-text > h1{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    #cover-text > p, #cover-text > span{
+        margin-top: 40px;
+        padding: 0 25px;
+        font-size: 25px;
+    }
+
+    .cta h1 {
+        text-transform:none;
+        display: block;
+        color: #fff;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    /* SPECIALS */
+    .row{
+        display: flex;
+        justify-content: space-between;
+        /* align-items: flex-end; */
+        
+    }
+
+
+
+    /* Footer */
+
+    
+    
+}
+/* Media Query: small PC and larger screen (992px and up) */
+
+@media screen and (min-width:992px){
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+    #cover-text{
+        width: 80%;
+
+
+    }
+
+    /* CTA */
+
+    .cta h1{
+        display: block;
+    }
+    /* #cover-text {
+        width: 500px;
+        width: fit-content;
+        
+    } */
+    
+}
+
+@media (max-width: 768px) {
+    .row-specials{
+        flex-direction: column;
+    }
+}

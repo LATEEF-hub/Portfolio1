@@ -135,12 +135,18 @@ nav{
     border-bottom: 1px solid var(--footerColor);
 }
 
+/* MAIN */
 main {
     /* Make main take up Surplus space and push footer down */
-    background-color: #3075b1;
     margin-top: 47px;
-
     flex: 1 0 auto;
+
+}
+#hero{
+    background: url("../images/hero.webp") no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
 
 }
 
