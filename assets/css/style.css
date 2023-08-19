@@ -149,6 +149,35 @@ main {
     position: relative;
 
 }
+#cover-text {
+    
+    font-size: 130%;
+    position: absolute;
+    width: 80%;
+    /* color: var(--text-box-color); */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: var(--textCenterAlign);
+}
+
+#cover-text h1 {
+    display: block;
+    color: #fff;
+    padding-inline: 15px;
+    font-size: 62px;
+    line-height: 1.5em;
+    margin-top: 90px;
+
+}
+
+#cover-text p, #cover-text span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
 
 
 footer {
