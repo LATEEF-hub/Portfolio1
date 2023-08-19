@@ -57,6 +57,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
+    background: #bbe7de;
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 
@@ -176,6 +177,46 @@ main {
     font-size: 20px;
     font-weight: bold;
 
+}
+
+/* SPECIALS  */
+
+.specials {
+    width: 80%;
+    margin: auto;
+    text-align: var(--textCenterAlign);
+}
+
+
+
+.specials-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: var(--textLeftAlign);
+
+}
+
+.specials-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.specials-col p {
+    padding-block: 0;
+}
+
+.specials-col h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: var(--textLeftAlign);
+}
+.specials h1, p{
+    margin-top: 5px;
+    display: block;
+    padding-block: 10px;
+    
+    /* text-align: center; */
 }
 
 
