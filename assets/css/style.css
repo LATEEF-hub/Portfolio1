@@ -46,9 +46,6 @@
     --BG-Color: #ffffff;
 
 
-
-
-
 }
 
 body {
@@ -287,5 +284,89 @@ main {
 }
 
 
+/* Media Query: tablet and larger screen (768px and up) */
+
+@media screen and (min-width: 768px){
+    nav{
+       display: block;
+       box-shadow: none;
+       width: fit-content;
+       position: relative;
+       padding-right: 1em;
+       
+       
+    }
+    #menu{
+        display: var(--display-flex);
+    } 
 
 
+    #menu > li{
+        padding-left: 1rem;
+    
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    .nav-toggle-label{
+        display: none;
+    }
+    
+    /* #hero */
+    #cover-text > h1{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    #cover-text > p, #cover-text > span{
+        margin-top: 40px;
+        padding: 0 25px;
+        font-size: 25px;
+    }
+
+    .cta h1 {
+        text-transform:none;
+        display: block;
+        color: #fff;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    /* SPECIALS */
+    .row{
+        display: flex;
+        justify-content: space-between;
+        /* align-items: flex-end; */
+        
+    }
+    
+    
+}
+/* Media Query: small PC and larger screen (992px and up) */
+
+@media screen and (min-width:992px){
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+    #cover-text{
+        width: 80%;
+
+
+    }
+
+    /* CTA */
+
+    .cta h1{
+        display: block;
+    }
+    /* #cover-text {
+        width: 500px;
+        width: fit-content;
+        
+    } */
+    
+}
