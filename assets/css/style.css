@@ -257,10 +257,35 @@ main {
     transition: 1s;
 
 }
+/* FOOTER */
 
-
-
-
-footer {
-    color: red;
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
 }
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+.fa-heart-pulse {
+    color: inherit;
+}
+
+
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+
+
+
