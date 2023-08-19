@@ -219,6 +219,46 @@ main {
     /* text-align: center; */
 }
 
+/* CTA */
+
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 100px 0;
+    text-align: var(--textCenterAlign);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/AfricanPot.webp");
+}
+
+.cta h1 {
+    text-transform:none;
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px dotted var(--text-box-color);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    border: 1px solid var(--primaryColor);
+    background: #bbe7de;
+    transition: 1s;
+
+}
+
+
 
 
 footer {
