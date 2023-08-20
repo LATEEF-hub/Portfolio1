@@ -44,7 +44,13 @@
     --JC-spaceBtw: space-between;
     --JC-spaceArd: space-around;
     --BG-Color: #ffffff;
-
+}
+.bodyCustom{
+    --vh: 100vh;
+    --Font-Family: 'Lato', sans-serif;
+    display: var(--display-flex);
+    --background: #bbe7de;;
+    
 
 }
 
@@ -55,7 +61,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     background: #bbe7de;
-    color: #3a3a3a;
+    /* color: #3a3a3a; */
     font-family: 'Lato', sans-serif;
 
 }
@@ -304,6 +310,28 @@ main {
     box-sizing: border-box;
 }
 
+/* Confirm-Msg */
+.confirm-message{
+    /* border: 2px dotted black; */
+    position: relative;
+    width: 80%;
+    display: flex;
+    left: 2em;
+    margin-top: 40px;
+    border-radius: 10px;
+    
+}
+.confirm-wrapper{
+    
+    position: relative;
+    height: inherit;
+    color: inherit;
+    text-align: center;
+    max-width: fit-content;
+    padding-inline:27px;
+}
+
+
 /* SUB-HEADER */
 .sub-header {
     background: url("../images/hero.webp") no-repeat center center/cover;
@@ -452,6 +480,24 @@ main {
         /* align-items: flex-end; */
         
     }
+
+    /* Confirm Msg */
+
+    .confirm-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .confirm-message{
+        width: 80%;
+        margin-top: 50px;
+        max-width: fit-content;
+        left: 10%;
+       
+    }
+
     
     
 }
@@ -477,5 +523,13 @@ main {
         width: fit-content;
         
     } */
+
+    .confirm-message{
+        min-height: 15vh;
+        margin-top: 70px;
+        width:100%;
+        left: 30%;
+       
+    }
     
 }
