@@ -698,6 +698,8 @@ h1 {
     .menu {
         /* display: flex; */
         display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         flex: auto;
         margin-top: 30px;
 
@@ -743,8 +745,13 @@ h1 {
     }
 
     /* Menu */
-    .
-
+    .food-items{
+        margin: auto;
+        width: 60%;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    
 
 
 
