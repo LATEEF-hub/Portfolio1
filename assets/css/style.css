@@ -43,6 +43,7 @@
     --textAlign: center;
     --JC-spaceBtw: space-between;
     --JC-spaceArd: space-around;
+    --JC-center: center;
     --BG-Color: #ffffff;
 }
 
@@ -51,14 +52,11 @@
     --Font-Family: 'Lato', sans-serif;
     display: var(--display-flex);
     --background: #bbe7de;
-    ;
-
-
 }
 
 body {
     /* min-height allows  to strecth larger than Heigth of screen when theres enough content on the screen ; */
-    min-height: 100vh;
+    min-height: var(--vh);
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -585,7 +583,7 @@ h1 {
 }
 
 .details>button:hover {
-    background: #ffffff;
+    background: var(--BG-Color);
     cursor: pointer;
     transform: scale(.97);
 }
@@ -598,7 +596,7 @@ h1 {
 }
 
 .details>button:hover {
-    background: #ffffff;
+    background: var(--BG-Color);
     cursor: pointer;
     transform: scale(.97);
 }
@@ -640,7 +638,7 @@ h1 {
     #cover-text>h1 {
         display: block;
         justify-content: center;
-        text-align: center;
+        text-align: var(--textCenterAlign);
 
     }
 
