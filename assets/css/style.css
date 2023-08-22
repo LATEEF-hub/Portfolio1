@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@100;300;400;900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;300;400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap');
 /* Asterisk Wildcard Selector to override browser default styles */
+ /* To set the toggle add a display flex to here and JC-sBtw */
+/* min-height allows  to strecth larger than Heigth of screen when theres enough content on the screen ; */
+
 
 * {
     padding: 0;
@@ -17,7 +20,6 @@
     --footerColor: #3a3a3a;
     --textColor: #fff;
     --text-box-color: rgba(253, 253, 253, 0.878);
-    /* --secondaryTextColor:#f1efef ;*/
     --font-size: 2.5rem !important;
     --AccentGreen: #95f4ab;
     --filter-Shadow: drop-shadow(0 0 20px rgba(0, 0, 0, 0.2));
@@ -48,13 +50,11 @@
 }
 
 body {
-    /* min-height allows  to strecth larger than Heigth of screen when theres enough content on the screen ; */
     min-height: var(--vh);
     display: flex;
     flex-direction: column;
     /* Generic project styles */
     background: #bbe7de;
-    /* color: #3a3a3a; */
     font-family: 'Lato', sans-serif;
 
 }
@@ -67,8 +67,6 @@ header {
     z-index: 99;
     padding-inline: 1rem;
     box-shadow: 0 2px 2px var(--footerColor);
-
-    /* To set the toggle add a display flex to here and JC-sBtw */
     display: var(--display-flex);
     justify-content: var(--JC-spaceBtw);
     align-items: var(--AlignItems-Baseline);
@@ -130,9 +128,7 @@ nav {
     border-bottom: 1px solid var(--footerColor);
 }
 
-/* MAIN */
-
-main {
+.main {
     margin-top: 47px;
     flex: 1 0 auto;
 }
@@ -333,8 +329,6 @@ p {
     max-width: fit-content;
     padding-inline: 27px;
 }
-
-
 /* SUB-HEADER */
 .sub-header {
     background: url("../images/hero.webp") no-repeat center center/cover;
@@ -395,7 +389,7 @@ p {
 
 .footer {
     width: 100%;
-    text-align: center;
+    text-align: var(--textCenterAlign);
     padding: 30px 0;
 }
 
@@ -654,7 +648,7 @@ h1 {
 
     .confirm-message {
         width: 80%;
-        margin-top: 50px;
+        margin-top: 100px;
         max-width: fit-content;
         left: 10%;
     }
@@ -710,10 +704,15 @@ h1 {
     } */
 
     .confirm-message {
-        min-height: 15vh;
-        margin-top: 70px;
+        display: flex;
+        min-height: 20vh;
+        margin-top: 120px;
         width: 100%;
-        left: 30%;
+        left: 15%;
+        right: 10px;
+        text-align: center;
+        align-items: center;
+        
 
     }
 
