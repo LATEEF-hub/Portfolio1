@@ -76,7 +76,7 @@ This is an African Restaurant website for Ayínkè African Restaurant. It is des
       -   [W3C HTML Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![H](assets/images/validator.png)
       -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![](assets/images/validator.png)
        
-       ### Lighthouse report generator was used to validate the Performance, SEO, Accesibility, Best Practices.
+    Lighthouse report generator was used to validate the Performance, SEO, Accesibility, Best Practices for mobile and desktop.
        <img src="assets/images/lighthouse.png">
       
 
