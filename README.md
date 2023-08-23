@@ -76,7 +76,7 @@ This is an African Restaurant website for Ayínkè African Restaurant. It is des
       -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![H](assets/images/validator.png)
       -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![](assets/images/validator.png)
 
-    ### Test cases (user story based with screenshots)
+-  ### Test cases (user story based with screenshots)
       
       -   #### First Time Visitor Goals
 
@@ -100,7 +100,7 @@ This is an African Restaurant website for Ayínkè African Restaurant. It is des
     3. As a First Time Visitor, I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
         1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the restaurant on social media which highlights the links to them.
 
 -   #### Returning Visitor Goals
 
@@ -113,34 +113,26 @@ This is an African Restaurant website for Ayínkè African Restaurant. It is des
 
         1. The navigation bar clearly highlights the "Contact Us" Page.
         2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
+        3. The footer contains links to the organisations Facebook, Snapchat and Instagram page.
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
         5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
 
     3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
         1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
-
 -   #### Frequent User Goals
-
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
-
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
-
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
-
-
-
+    1. As a Frequent User, I want to check to see if there are any newly added menu or locations.
+        1. The user would already be comfortable with the website layout and can easily click the menu from the nav bar or call to action from contact page.
 
         ### Fixed Bugs
+        
+-  #### Supported Screens and Browsers
+        
+    ### Further Testing
+
+   -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+   -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+   -   A large amount of testing was done to ensure that all pages were linking correctly.
+   -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 
 
