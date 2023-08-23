@@ -90,20 +90,21 @@ This is an African Restaurant website for Ayínkè African Restaurant. It is des
 
         1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
         2. At the bottom of the first and last page there is a redirection call to action button to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        <!-- ![FirstTimeVisitorGoals](./assets/images/first-time-visitor-goals.png "First Time Visitor Goals") -->
+        - Call to Action first and last page
+        <img src="assets/images/lastpagecta.png" width="250"> 
+        <img src="assets/images/firstpagecta.png" width="250">
         3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is with message confirming the form has 
            been successfully submitted.
-           
            <img src ="assets/images/confirmmessage.png" width="250">
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+    3. As a First Time Visitor, I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
         1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
         3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+    1. As a Returning Visitor, I want to find the new menu added.
 
         1. These are clearly shown in the banner message.
         2. They will be directed to a page with another hero image and call to action.
