@@ -105,11 +105,11 @@ nav {
     top: 100%;
 }
 
-.nav-toggle:checked~nav {
+#nav-toggle:checked~nav {
     display: block;
 }
 
-.nav-toggle {
+#nav-toggle {
     display: none;
 }
 .nav-toggle-label {
