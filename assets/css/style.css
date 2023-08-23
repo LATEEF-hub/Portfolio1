@@ -29,6 +29,8 @@
     --JC-spaceArd: space-around;
     --AlignItems-Baseline: baseline;
     --AlignItems-Center: center;
+    --background: #addfb4;
+    --Font-Family: 'Lato', sans-serif;
 
 }
 
@@ -41,20 +43,13 @@
     --BG-Color: #ffffff;
 }
 
-.bodyCustom {
-    --vh: 100vh;
-    --Font-Family: 'Lato', sans-serif;
-    display: var(--display-flex);
-    --background: #bbe7de;
-}
-
 body {
     min-height: var(--vh);
-    display: flex;
+    display: var(--display-flex);
     flex-direction: column;
     /* Generic project styles */
-    background: #bbe7de;
-    font-family: 'Lato', sans-serif;
+    background: var(--background);
+    font-family: var(--Font-Family);
 
 }
 
@@ -392,15 +387,6 @@ p {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-}
-
-
-
-
-
-body {
-    background: #addfb4;
-    font-family: 'Lato', sans-serif;
 }
 
 .menu {
