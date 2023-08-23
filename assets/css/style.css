@@ -676,17 +676,14 @@ body {
 
     .confirm-message {
         display: flex;
-        min-height: 20vh;
         margin-top: 120px;
         width: 100%;
-        left: 15%;
+        left: 25%;
         right: 10px;
         text-align: center;
         align-items: center;
-        
-
     }
-
+    
     /* Menu */
     .food-items{
         margin: auto;
