@@ -15,14 +15,14 @@
 
 :root {
 
-    --primaryColor: linear-gradient(rgba(122, 226, 162, 0.998), rgba(80, 151, 123, 0.88));
-    --headerColor: linear-gradient(45deg, rgba(74, 80, 74, 0.916), rgb(33, 67, 33), green);
+    --primaryColor: linear-gradient(#7ae2a2fe, #50977be0);
+    --headerColor: linear-gradient(45deg, #4a504aea, #214321, #008000);
     --footerColor: #3a3a3a;
     --textColor: #fff;
-    --text-box-color: rgba(253, 253, 253, 0.878);
-    --font-size: 2.5rem !important;
+    --text-box-color: #fdfdfde0;
+    --font-size: 2.5rem;
     --AccentGreen: #95f4ab;
-    --filter-Shadow: drop-shadow(0 0 20px rgba(0, 0, 0, 0.2));
+    --filter-Shadow: drop-shadow(0 0 20px #00000033);
     --textCenterAlign: center;
     --textRightAlign: right;
     --textLeftAlign: left;
@@ -34,7 +34,7 @@
 
 }
 .header-Custom {
-    --headerColor: linear-gradient(45deg, rgba(74, 80, 74, 0.916), rgb(33, 67, 33), green);
+    --headerColor: linear-gradient(45deg, #4a504aea, #214321, #008000);
     --textAlign: center;
     --JC-spaceBtw: space-between;
     --JC-spaceArd: space-around;
@@ -59,7 +59,6 @@ body {
 
 }
 
-/* HEADER */
 header {
     background-color: #fff;
     position: fixed;
@@ -146,26 +145,18 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: var(--textCenterAlign);
-    background-color: #addfb4c2;
-}
-
-#cover-text h1 {
-    display: block;
-    color: #fff;
-    padding-inline: 15px;
-    font-size: 62px;
-    line-height: 1.5em;
-    margin-top: 90px;
-
+    background-color: inherit;
+    font-weight: bold;
+   
 }
 
 #cover-text p,
 #cover-text span {
     color: #fff;
     font-size: 20px;
-    margin-top: 0;
-    text-align: var(--JC-spaceArd);
-    font-weight: 200;
+    text-align: var(--AlignItems-Baseline);
+    font-weight: 600;
+    background-color: #f5deb344;
 
 }
 
