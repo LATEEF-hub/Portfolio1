@@ -288,7 +288,7 @@ p {
 .contact-col textarea {
     width: 100%;
     padding: 15px;
-    border: 1px soild #ccc;
+    border: 1px solid #ccc;
     margin-bottom: 17px;
     outline: none;
     box-sizing: border-box;
@@ -483,7 +483,6 @@ body {
     border-radius: 15px;
     right: 0;
     left: 0;
-    margin-top: px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
     transition: .2s ease-in-out;
 }
