@@ -73,8 +73,12 @@ This is an African Restaurant website for Ayínkè African Restaurant. It is des
        ### Code validation
     
     The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-      -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![H](assets/images/validator.png)
+      -   [W3C HTML Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![H](assets/images/validator.png)
       -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![](assets/images/validator.png)
+       
+       ### Lighthouse report generator was used to validate the Performance, SEO, Accesibility, Best Practices.
+       <img src="assets/images/lighthouse.png">
+      
 
 -  ### Test cases (user story based with screenshots)
       
@@ -124,13 +128,16 @@ This is an African Restaurant website for Ayínkè African Restaurant. It is des
         1. The user would already be comfortable with the website layout and can easily click the menu from the nav bar or call to action from contact page.
 
         ### Fixed Bugs
+
+        - The responsiveness of the page on iPad screen was a little bit bad and needed alignment
         
 -  #### Supported Screens and Browsers
+
         
     ### Further Testing
 
-   -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-   -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+   -   The Website was tested on Google Chrome, Internet Explorer, Mozilla Firefox, Microsoft Edge and Safari browsers.
+   -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone xr,   Samsung Tablet, iPhone 12 & iPhoneX.
    -   A large amount of testing was done to ensure that all pages were linking correctly.
    -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
