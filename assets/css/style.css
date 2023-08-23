@@ -5,13 +5,11 @@
  /* To set the toggle add a display flex to here and JC-sBtw */
 /* min-height allows  to strecth larger than Heigth of screen when theres enough content on the screen ; */
 
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 
 :root {
 
@@ -69,14 +67,11 @@ header {
     display: var(--display-flex);
     justify-content: var(--JC-spaceBtw);
     align-items: var(--AlignItems-Baseline);
-
-
 }
 
 header a {
     text-decoration: none;
     color: var(--primaryColor);
-
 }
 
 h1 {
@@ -93,7 +88,6 @@ h1 {
     list-style: none;
     font-size: 110%;
     font-weight: 250;
-
 }
 
 .menu-link >li {
@@ -109,14 +103,13 @@ nav {
     box-shadow: 0 2px 2px var(--footerColor);
     display: none;
     top: 100%;
-
 }
 
-#nav-toggle:checked~nav {
+.nav-toggle:checked~nav {
     display: block;
 }
 
-#nav-toggle {
+.nav-toggle {
     display: none;
 }
 .nav-toggle-label {
