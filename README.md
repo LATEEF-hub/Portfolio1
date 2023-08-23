@@ -90,6 +90,7 @@ This is an African Restaurant website for Ayínkè African Restaurant. It is des
 
         1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
         2. At the bottom of the first and last page there is a redirection call to action button to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+        <!-- ![FirstTimeVisitorGoals](./assets/images/first-time-visitor-goals.png "First Time Visitor Goals") -->
         3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is with message confirming the form has 
            been successfully submitted.
            
