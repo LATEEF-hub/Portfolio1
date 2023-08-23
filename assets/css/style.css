@@ -88,7 +88,7 @@ h1 {
     align-items: var(--AlignItems-Center);
 }
 
-#menu {
+.menu-link {
     letter-spacing: 4px;
     list-style: none;
     font-size: 110%;
@@ -96,7 +96,7 @@ h1 {
 
 }
 
-#menu>li {
+.menu-link >li {
     margin-bottom: 1em;
 }
 
@@ -131,13 +131,13 @@ nav {
     margin-top: 47px;
     flex: 1 0 auto;
 }
-#hero {
+.hero {
     background: url("../images/hero.webp") no-repeat center center/cover;
     height: 600px;
     width: 100%;
     position: relative;
 }
-#cover-text {
+.cover-text {
     font-size: 130%;
     position: absolute;
     width: 80%;
@@ -150,8 +150,8 @@ nav {
    
 }
 
-#cover-text p,
-#cover-text span {
+.cover-text p,
+.cover-text span {
     color: #fff;
     font-size: 20px;
     text-align: var(--AlignItems-Baseline);
@@ -567,12 +567,12 @@ body {
 
     }
 
-    #menu {
+    .menu-link {
         display: var(--display-flex);
     }
 
 
-    #menu>li {
+    .menu-link >li {
         padding-left: 1rem;
 
     }
@@ -582,7 +582,7 @@ body {
     }
 
 
-    #logo {
+    .logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
@@ -593,15 +593,15 @@ body {
     }
 
     /* #hero */
-    #cover-text>h1 {
+    .cover-text>h1 {
         display: block;
         justify-content: center;
         text-align: var(--textCenterAlign);
 
     }
 
-    #cover-text>p,
-    #cover-text>span {
+    .cover-text>p,
+    .cover-text>span {
         margin-top: 40px;
         padding: 0 25px;
         font-size: 25px;
@@ -637,7 +637,6 @@ body {
         left: 10%;
     }
 
-    /* Menu */
     .food-items {
         display: grid;
         grid-template-columns: auto auto;
@@ -665,11 +664,11 @@ body {
 /* Media Query: small PC and larger screen (992px and up) */
 
 @media screen and (min-width:992px) {
-    #menu a:hover {
+    .menu-link a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    #cover-text {
+    .cover-text {
         width: 80%;
 
 
@@ -681,11 +680,6 @@ body {
         display: block;
     }
 
-    /* #cover-text {
-        width: 500px;
-        width: fit-content;
-        
-    } */
 
     .confirm-message {
         display: flex;
