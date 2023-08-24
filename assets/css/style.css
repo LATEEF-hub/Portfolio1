@@ -631,9 +631,30 @@ p {
     }
 
     .footer {
+        position: relative;
         margin-top: 200px;
     }
 
+}
+
+@media  screen and (min-width: 900px) {
+
+
+    .confirm-message {
+        display: flex;
+        margin-top: 120px;
+        width: 100%;
+        left: 9%;
+        text-align: center;
+        align-items: center;
+        font-size: 110%;
+    }
+
+    .footer {
+        position: relative;
+        margin-top: 450px;
+    }
+    
 }
 
 /* Media Query: small PC and larger screen (992px and up) */
@@ -659,7 +680,7 @@ p {
         display: flex;
         margin-top: 120px;
         width: 100%;
-        left: 18%;
+        left: 16%;
         text-align: center;
         align-items: center;
     }
