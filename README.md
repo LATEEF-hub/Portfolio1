@@ -38,9 +38,9 @@ This is an African Restaurant website for Ayínkè African Restaurant. It is des
 
     -   Large Screen Wireframe
     -   
-        - <img src="assets/wireframes/homepage.png" width="300"> <img src="assets/wireframes/menu-page.png" width="300"> <img src="assets/wireframes/contact-page.png" width="300"> <img src="assets/wireframes/about-page.png" width="300">
+        - <img src="readme-docs/wireframes/homepage.png" width="300"> <img src="readme-docs/wireframes/menu-page.png" width="300"> <img src="readme-docs/wireframes/contact-page.png" width="300"> <img src="readme-docs/wireframes/about-page.png" width="300">
     -   Mobile Screen Wireframe
-        - <img src="assets/wireframes/mobilehomepage.png" width="200"> <img src="assets/wireframes/menu-mobile.png" width="200"> <img src="assets/wireframes/contactmobilepage.png" width="200"> <img src="assets/wireframes/aboutmobilepage.png" width="200">
+        - <img src="readme-docs/wireframes/mobilehomepage.png" width="200"> <img src="readme-docs/wireframes/menu-mobile.png" width="200"> <img src="readme-docs/wireframes/contactmobilepage.png" width="200"> <img src="readme-docs/wireframes/aboutmobilepage.png" width="200">
 
 
      ## Features
@@ -73,11 +73,11 @@ This is an African Restaurant website for Ayínkè African Restaurant. It is des
        ### Code validation
     
     The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-      -   [W3C HTML Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![H](assets/images/validator.png)
-      -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![](assets/images/validator.png)
+      -   [W3C HTML Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![H](readme-docs/validator.png)
+      -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![](readme-docs/validator.png)
        
     Lighthouse report generator was used to validate the Performance, SEO, Accesibility, Best Practices for mobile and desktop.
-       <img src="assets/images/lighthouse.png">
+       <img src="readme-docs/lighthouse.png">
       
 
 -  ### Test cases (user story based with screenshots)
@@ -95,11 +95,11 @@ This is an African Restaurant website for Ayínkè African Restaurant. It is des
         1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
         2. At the bottom of the first and last page there is a redirection call to action button to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
         - Call to Action first and last page
-        <img src="assets/images/lastpagecta.png" width="250"> 
-        <img src="assets/images/firstpagecta.png" width="250">
+        <img src="readme-docs/lastpagecta.png" width="250"> 
+        <img src="readme-docs/firstpagecta.png" width="250">
         3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is with message confirming the form has 
            been successfully submitted.
-           <img src ="assets/images/confirmmessage.png" width="250">
+           <img src ="readme-docs/confirmmessage.png" width="250">
 
     3. As a First Time Visitor, I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
         1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
