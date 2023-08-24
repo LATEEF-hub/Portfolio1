@@ -39,6 +39,7 @@ This is an African Restaurant website for Ayínkè African Restaurant. It is des
        - Responsive on all devices
        - It makes the website easy for user to navigate
        - It is available on each pages of the website
+       - Logo that can be use to navigate back to the homepage from anywhere on the site.
        
   -  #### Home Page:
        #### The home page consists of four sections:
