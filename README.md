@@ -32,52 +32,82 @@ This is an African Restaurant website for Ayínkè African Restaurant. It is des
         -   The Lato font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Lato is an excellent choice for web designers looking for a versatile, modern font with a friendly feel., so it is both attractive and appropriate.
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
-        -   The Menu, Specials and customer image are designed to be precise and reflect the website goals
+        -   The Menu, Specials and customer image are designed to be precise and reflect the website goals.
 
-*   ### Wireframes
-
-    -   Large Screen Wireframe
-    -   
-        - <img src="readme-docs/wireframes/homepage.png" width="300"> <img src="readme-docs/wireframes/menu-page.png" width="300"> <img src="readme-docs/wireframes/contact-page.png" width="300"> <img src="readme-docs/wireframes/about-page.png" width="300">
-    -   Mobile Screen Wireframe
-        - <img src="readme-docs/wireframes/mobilehomepage.png" width="200"> <img src="readme-docs/wireframes/menu-mobile.png" width="200"> <img src="readme-docs/wireframes/contactmobilepage.png" width="200"> <img src="readme-docs/wireframes/aboutmobilepage.png" width="200">
-
-
-     ## Features
-
+## Features
+  -   #### Navigation Bar:
        - Responsive on all devices
-       - Allows user to reach out to owner through form
+       - It makes the website easy for user to navigate
+       - It is available on each pages of the website
+       
+  -  #### Home Page:
+       #### The home page consists of four sections:
+       - The navigation bar with all link to the other pages on the website and Logo that be use to navigate back to the homepage from anywhere on the site.
+       - The hero image section with a clearly description of the restaurant goals, service and mission.
+       - The Special section where user can find specials dishes of the month.
+       - The call to action section that link to contact page where user can leave a query or place an order.
 
-     ### Future Features 
-       - User will be able to order multiple item at time by using the add to cart feature
+  - #### Menu Page:
+      - Menu section contains images of different types of dishes.
+      - It show the price of each dish on the menu
+      - It has simple and little description on each dish and ingredients
 
-     ## Technologies Used
+  - #### About Us Section:
+      - This section explains who we are as well as how we got started. 
+      - It also explains the service we offer.  
+      - Describes what we do at this restaurant.  
 
-     ### Languages Used
+  - #### Contact Us Section:
+     - It has a Map section that show user our location on the map for easy reach.
+     - This section provides contact details where you can reach out with any questions or comments.
+     - It provides form section that can be used to place order or submit query through email addresss.
 
-       -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
-       -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+ - #### Footer Section:
+     - It provides links to social media account which allow user to connect with the restaurant outside of the site itself.
+     - It provides links to social media accounts such as Facebook, Instagram, etc., and also gives credit to the original creators of the webpages.
+     - It is available at the bottom of every page on the website.
+
+### Future Features 
+- User will be able to order multiple item at a time by using the add to cart feature.
+
+## Wireframes
+-   Large Screen Wireframe
+        - <img src="readme-docs/wireframes/homepage.png" width="300">
+        - <img src="readme-docs/wireframes/menu-page.png" width="300"> 
+        - <img src="readme-docs/wireframes/contact-page.png" width="300"> 
+        - <img src="readme-docs/wireframes/about-page.png" width="300">
+
+-   Mobile Screen Wireframe
+        - <img src="readme-docs/wireframes/mobilehomepage.png" width="200">
+        - <img src="readme-docs/wireframes/menu-mobile.png" width="200"> 
+        - <img src="readme-docs/wireframes/contactmobilepage.png" width="200"> 
+        - <img src="readme-docs/wireframes/aboutmobilepage.png" width="200">
+
+## Technologies Used
+
+- ### Languages Used
+     -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+     -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
  
-     ### Frameworks, Libraries & Programs Used
-
-      1. [Google Fonts:](https://fonts.google.com/)
+- ### Frameworks, Libraries & Programs Used
+  1. [Google Fonts:](https://fonts.google.com/)
         - Google fonts were used to import the 'Lato' font into the style.css file which is used on all pages throughout the project.
-      1. [Font Awesome:](https://fontawesome.com/)
+  1. [Font Awesome:](https://fontawesome.com/)
         - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-      1. [Balsamiq:](https://balsamiq.com/)
+  1. [Balsamiq:](https://balsamiq.com/)
         - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
  
-     ## Testing
+## Testing
      
-       ### Code validation
-    
+- ### Code validation
     The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-      -   [W3C HTML Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![H](readme-docs/validator.png)
-      -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![](readme-docs/validator.png)
-       
-    Lighthouse report generator was used to validate the Performance, SEO, Accesibility, Best Practices for mobile and desktop.
-       <img src="readme-docs/lighthouse.png">
+     - [W3C HTML Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![H](readme-docs/validator.png)
+     - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![](readme-docs/validator.png)
+  
+- ### Lighthouse  Validation
+   - Lighthouse report generator was used to validate the Performance, SEO, Accesibility, Best Practices for mobile and desktop.
+     <img src="readme-docs/lighthouse.png">
       
 
 -  ### Test cases (user story based with screenshots)
