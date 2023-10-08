@@ -157,6 +157,7 @@ nav {
 .specials {
     width: 80%;
     margin: auto;
+    margin-top: 4rem;
     text-align: var(--textCenterAlign);
 }
 
@@ -177,6 +178,7 @@ nav {
 
 .specials-col p {
     padding-block: 0;
+    line-height: 2rem;
 }
 
 .specials-col h3 {
@@ -346,6 +348,7 @@ p {
 
 .about-col p {
     padding: 15px 0 25px;
+    line-height: 25px;
 }
 
 .red-btn {
